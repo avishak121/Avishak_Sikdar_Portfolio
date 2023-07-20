@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav
+            class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <div class="flex md:order-2">
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Hire
+                        Me</button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 ">
+                        <li>
+                            <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-20">
+        <section class="py-10 gap-10">
+            <div class="flex flex-col md:flex-row justify-center bg-gray-300 rounded">
+              <div class="flex items-center md:w-1/2">
+                <div>
+                  <h1 class="text-3xl md:text-5xl font-bold text-center mt-4 md:mt-10">Hello, Myself</h1>
+                  <h3 class="text-2xl md:text-3xl font-medium mt-2 md:mt-4 text-center">Avishak Sikdar</h3>
+                  <p class="text-center mt-4 md:mt-5 text-base md:text-lg">I'm a Junior developer with a degree in Computer Science and proficiency in programming. I've worked on different projects in this field and value clear communication and organization.</p>
+                  <div class="flex items-center justify-center mt-4 md:mt-5">
+                    <button class="bg-blue-700 text-white rounded-lg px-4 py-3">
+                      Download CV
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center justify-center md:w-1/2">
+                <img class="w-3/4 md:w-2/4 max-w-full rounded-lg" src="images/mypic.jpeg" alt="Developer-image">
+              </div>
+            </div>
+          </section>
+          
+        <section class="py-5 px-5 ml-10 mr-10 bg-gray-100 rounded-lg">
+            <h1 class="text-3xl font-bold text-center">About Me</h1>
+            <p class="ml-5 mr-5 mt-2 font-normal">I am a developer and designer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+            <div class="flex flex-col md:flex-row justify-around mt-5 ">
+                <div>
+                    <h1 class="font-medium">Name:</h1>
+                    <p class="font-normal">Avishak Sikdar</p>
+                </div>
+                <div>
+                    <h1 class="font-medium">Mail:</h1>
+                    <p class="font-normal">avishaksikdar2018@gmail.com</p>
+                </div>
+                <div>
+                    <h1 class="font-medium">Speciality:</h1>
+                    <p class="font-normal">Web Development</p>
+                </div>
+                <div>
+                    <h1 class="font-medium">Location:</h1>
+                    <p class="font-normal">Dhaka,Bangladesh</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 px-5 sm:mx-4 sm:mt-4 sm:rounded-lg md:mx-8 md:mt-8 md:rounded-lg lg:mx-10 lg:mt-10 lg:rounded-lg">
+            <h1 class="text-3xl font-bold text-center">Expertise On</h1>
+            <div class="flex flex-col sm:flex-row justify-around mt-5">
+                <div class="bg-neutral-100 rounded mb-4 sm:mb-0 sm:mr-2 sm:w-1/4">
+                    <img class="mt-4 ml-4" src="images/icons/js.png" alt="">
+                    <p class="mt-4 ml-4 font-bold text-2xl">JavaScript</p>
+                    <p class="mt-4 ml-4 font-normal">JavaScript is the programming language of the Web.</p>
+                </div>
+                <div class="bg-zinc-50 rounded mb-4 sm:mb-0 sm:mx-2 sm:w-1/4">
+                    <img class="mt-4 ml-4" src="images/icons/react.png" alt="">
+                    <p class="mt-4 ml-4 font-bold text-2xl">React</p>
+                    <p class="mt-4 ml-4 font-normal">React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.</p>
+                </div>
+                <div class="bg-zinc-100 rounded mb-4 sm:mb-0 sm:mx-2 sm:w-1/4">
+                    <img class="mt-4 ml-4" src="images/icons/nodejs.png" alt="">
+                    <p class="mt-4 ml-4 font-bold text-2xl">Node JS</p>
+                    <p class="mt-4 ml-4 font-normal">Node.js is an open source server environment.</p>
+                </div>
+                <div class="bg-stone-100 rounded mb-4 sm:mb-0 sm:ml-2 sm:w-1/4">
+                    <img class="mt-4 ml-4" src="images/icons/mongo.png" alt="">
+                    <p class="mt-4 ml-4 font-bold text-2xl">Mongo DB</p>
+                    <p class="mt-4 ml-4 font-normal">MongoDB is a schema-less database, which means the database can manage data without the need for a blueprint.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="py-5 px-5 sm:mx-4 sm:mt-4 md:mx-8 md:mt-8lg:mx-12 lg:mt-12">
+            <!-- <h1 class="text-3xl font-bold text-center">A Summary Of My Resume</h1> -->
+            <div class="flex flex-col sm:flex-row justify-around mt-5 gap-5">
+                <div class="w-1/2 border-2 rounded">
+                    <h3 class="text-2xl font-bold">My Education</h3>
+                    <div class="bg-zinc-50">
+                        <h1 class="mt-3 text-2xl">Higher School Certificate(HSC)</h1>
+                        <h5 class="mt-2 text-2xl font-mono">Cambrian College</h5>
+                        <p class="mt-3 font-normal">Cambrian schools & college are committed to provide intellectual, social, cultural and economic benefits to communities through programs of education, co-curriculum activities, research and scholarships. Our schools & colleges are delivering world class education and research in the national education system of Bangladesh. Moreover, it has been involved in the next practice in the form of world citizenship education and makes an innovative and creative system for smart and enlightened generation. Our mission is to produce highly skilled manpower, visionary leaders and enlightened citizens.</p>
+                    </div>
+                    <hr>
+                    <div class="bg-zinc-50">
+                        <h4 class="mt-3 text-2xl">BSc In Computer Science</h4>
+                        <h5 class="mt-2 text-2xl font-mono">Independent University,Bangladesh</h5>
+                        <p class="mt-3 font-normal">Founded in 1993, Independent University, Bangladesh (IUB) is one of the oldest and leading private universities in Bangladesh where academic excellence is a tradition, teaching a passion and lifelong learning a habit. IUB currently has more than 9,800 undergraduate and graduate students and over 13,700 alumni. The students of IUB experience an exciting academic life with copious opportunities to explore and nurture their innate talent.</p>
+                    </div>
+                    <hr>
+                    
+                </div>
+                <div class="w-1/2 border-2">
+                    <h3 class="text-2xl font-bold bg-zinc-50">My Experience</h3>
+                    <div class="bg-zinc-50">
+                        <h4 class="mt-3 text-2xl">Html Css Developer</h4>
+                        <h5 class="mt-2 text-2xl font-mono">Adobe Inc / 2017 - 2019</h5>
+                        <p class="mt-3 font-normal">HTML/CSS developers are in charge of the entire end-to-end coding of websites. They manage HTML projects, create online apps, code websites, assist website visitors, take . psd files and mockups, and produce CSS code.</p>
+                    </div>
+                    <hr>A front-end developer builds the front-end portion of websites and web applications—the part users see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.
+                    <div class="bg-zinc-50">
+                        <h4 class="mt-3 text-2xl">Front End Developer</h4>
+                        <h5 class="mt-2 text-2xl font-mono">Apple Inc / 2019 - 2022</h5>
+                        <p class="mt-3 font-normal">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="bg-zinc-50">
+                        <h4 class="mt-3 text-2xl">Back End Developer</h4>
+                        <h5 class="mt-2 text-2xl font-mono">Dribbble Inc / 2022 - Current</h5>
+                        <p class="mt-3 font-normal">Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers. They use code that helps browsers communicate with databases, store, understand, and delete data.</p>
+                    </div>
+                </div>     
+            </div>
+
+            <div class="flex items-center justify-center mt-4 md:mt-5">
+                <button class="bg-orange-500 text-white rounded-lg px-4 py-3">
+                    Download CV
+                  </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-neutral-600 py-5">
+        <div class="flex flex-col sm:flex-row justify-around mt-5 gap-5">
+            <div class="w-1/2 border-2">
+                <h1 class="font-bold text-center text-white mt-10">Let's Connect</h1>
+                <p class="mt-10 font-normal ml-10 mr-10">Please fill out the form on this section to contact with me.</p>
+                <div class="mt-10 flex justify-center gap-10">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                </div>
+            </div>
+            <div class="w-1/2 border-2">
+                <h3 class="font-bold text-center text-white mt-5">Let's Contact Me</h3>
+                 <form class="gap-10">
+                    <input class="ml-20 mr-20 mt-5" type="text" id="" name="" placeholder="Your Name"><br>
+                    <input class="ml-20 mr-20 mt-5" type="text" id="" name="" placeholder="Your Mail"><br>
+                    <textarea class="mt-5 ml-20 mr-20" name="" id="" cols="50" rows="5" placeholder="message"></textarea>
+                    <br>
+                    <div class="flex items-center justify-center mt-5 py-2">
+                        <button class="bg-blue-400 text-white rounded-lg px-4 py-3">
+                            Submit
+                        </button>
+                    </div>   
+                </form> 
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+</body>
+
+</html>
